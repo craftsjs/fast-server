@@ -1,0 +1,1 @@
+export type HTTPVerbs = 'get' | 'post' | 'put' | 'head' | 'delete';

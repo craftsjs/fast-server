@@ -1,0 +1,7 @@
+[test]
+
+# always enable coverage
+coverage = true
+
+# to set different thresholds for lines and functions
+coverageThreshold = 0.8

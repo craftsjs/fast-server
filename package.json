@@ -1,0 +1,42 @@
+{
+  "name": "@craftsjs/fast-server",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "main": "dist/index.js",
+  "description": "An express-like API for bun http server",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craftsbp/fastserver"
+  },
+  "keywords": [
+    "bunserver",
+    "bun",
+    "express",
+    "http",
+    "rest",
+    "restful",
+    "web",
+    "app",
+    "server",
+    "framework",
+    "api",
+    "fast server"
+  ],
+  "author": "TeoGl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftsbp/fastserver/issues"
+  },
+  "homepage": "https://github.com/craftsbp/fastserver"
+}
