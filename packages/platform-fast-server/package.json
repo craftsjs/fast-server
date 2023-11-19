@@ -1,0 +1,48 @@
+{
+  "name": "@craftsjs/platform-fast-server",
+  "version": "0.0.1",
+  "module": "src/index.ts",
+  "type": "module",
+  "main": "src/index.ts",
+  "description": "fast server for nestjs",
+  "dependencies": {
+    "@craftsjs/fast-server": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "@nestjs/core": "^10.2.8",
+    "@nestjs/common": "^10.2.8",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "bunserver",
+    "bun",
+    "express",
+    "http",
+    "rest",
+    "restful",
+    "web",
+    "app",
+    "server",
+    "framework",
+    "api",
+    "fast server"
+  ],
+  "author": "TeoGl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftsjs/platform-fast-server/issues"
+  },
+  "homepage": "https://github.com/craftsjs/platform-fast-server",
+  "exports": {
+    ".": {
+      "transpiled": "./dist/index.js",
+      "default": "./index.ts"
+    }
+  }
+}
